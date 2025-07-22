@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uma Photography</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Uma Photography</h1>
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Capturing Moments, Creating Memories</h2>
+      <p>All types of Photography Services Available</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Welcome to Uma Photography! We specialize in capturing beautiful moments through our lenses. Our services include Wedding Photography, Baby Shoots, Outdoor Shoots, Pre-wedding, and much more.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Our Work</h2>
+    <div class="gallery-images">
+      <img src="https://via.placeholder.com/300x200?text=Wedding" alt="Wedding">
+      <img src="https://via.placeholder.com/300x200?text=Baby+Shoot" alt="Baby Shoot">
+      <img src="https://via.placeholder.com/300x200?text=Outdoor" alt="Outdoor">
+      <img src="https://via.placeholder.com/300x200?text=Pre-Wedding" alt="Pre-Wedding">
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2>Our Packages</h2>
+    <div class="pricing-cards">
+      <div class="card">
+        <h3>Basic Package</h3>
+        <p>Ideal for birthdays & baby shoots</p>
+        <p class="price">₹3,000</p>
+      </div>
+      <div class="card">
+        <h3>Standard Package</h3>
+        <p>Pre-wedding & Outdoor Shoots</p>
+        <p class="price">₹7,000</p>
+      </div>
+      <div class="card">
+        <h3>Premium Wedding</h3>
+        <p>Full Day Wedding + Album</p>
+        <p class="price">₹20,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="reviews">
+    <h2>Customer Reviews</h2>
+    <div class="review-cards">
+      <div class="review">
+        <p>"Amazing service! My baby shoot was perfect. Highly recommended!"</p>
+        <span>- vraj Patel</span>
+      </div>
+      <div class="review">
+        <p>"Uma Photography made our wedding day unforgettable with stunning photos!"</p>
+        <span>- Ramesh & Neha</span>
+      </div>
+      <div class="review">
+        <p>"Very professional and creative. Loved the outdoor shoot experience!"</p>
+        <span>- Viral Joshi</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return false;">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <p><strong>Email:</strong> umaphotograpyh@gmail.com</p>
+      <p><strong>Phone:</strong> 9265960979</p>
+      <p><strong>Address:</strong> F-10 Narmada Plaza, Kadi</p>
+    </div>
+    <!-- WhatsApp Button -->
+<a href="https://wa.me/919265960979" class="whatsapp-button" target="_blank">
+  💬 Chat on WhatsApp
+</a>
+
+<!-- Google Map -->
+<div class="map">
+  <iframe
+    src="https://www.google.com/maps?q=F-10+Narmada+Plaza,+Kadi&output=embed"
+    width="100%"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+  ></iframe>
+</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Uma Photography | All rights reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
